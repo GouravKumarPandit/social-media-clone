@@ -14,7 +14,6 @@ import { useState } from 'react';
 
 function App() {
 	// Creating Post Object
-
 	let [allPosts, handleAllPostsRequest] = useState([
 		{
 			ID: 123456,
